@@ -8,6 +8,12 @@ spring:
     host: 49.235.200.38
     port: 6379
     password: 2472500609cn#
+  rabbitmq:
+    host: 49.235.200.38
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirm-type: correlated #是否确认发送的消息已经被消费
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**Mapper.xml
 server:

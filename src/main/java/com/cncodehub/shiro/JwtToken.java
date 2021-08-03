@@ -22,4 +22,5 @@ public class JwtToken implements AuthenticationToken {
     public Object getCredentials() {
         return tocken;
     } //凭据
+
 }
